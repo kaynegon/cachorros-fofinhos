@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cachorros Fofinhos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <h1 class="text-center">Cachorros Fofinhos</h1>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#max-luna">Max e Luna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#rocky">Rocky</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#bella">Bella</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-fill">
+        <section class="container section-container my-5" id="max-luna">
+            <h2 class="text-center">Max e Luna - Border Collies</h2>
+            <p class="text-center fs-4">Max e Luna são dois border collies inseparáveis. Max, com sua pelagem preta e branca, é o irmão mais velho, sempre protetor e cuidadoso com Luna, que tem um pelo marrom e branco vibrante. Eles nasceram em uma fazenda e cresceram correndo pelos campos, ajudando a pastorear ovelhas.</p>
+            <div class="text-center">
+                <img src="https://cdn2.thedogapi.com/images/8X9vWcGdt.jpg" alt="Max e Luna - Border Collies" class="img-fluid" style="max-width: 50%;">
+            </div>
+        </section>
+
+        <section class="container section-container my-5" id="rocky">
+            <h2 class="text-center">Rocky - Amstaff</h2>
+            <p class="text-center fs-4">Rocky é um amistaff carinhoso e cheio de energia. Ele foi resgatado ainda filhote e encontrou um lar cheio de amor, onde aprendeu a ser um cachorro confiante e leal.</p>
+            <div class="text-center">
+                <img src="https://cdn2.thedogapi.com/images/rJIakgc4m_1280.jpg" alt="Rocky - Amstaff" class="img-fluid" style="max-width: 50%;">
+            </div>
+        </section>
+
+        <section class="container section-container my-5" id="bella">
+            <h2 class="text-center">Bella - Golden Retriever</h2>
+            <p class="text-center fs-4">Bella é uma golden retriever adorável, conhecida por sua doçura e energia. Ela ama brincar com sua bola no parque.</p>
+            <div class="text-center">
+                <img src="https://cdn2.thedogapi.com/images/HJ7Pzg5EQ_1280.jpg" alt="Bella - Golden Retriever" class="img-fluid" style="max-width: 50%;">
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center mt-auto p-3">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Cachorros Fofinhos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
